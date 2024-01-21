@@ -26,5 +26,5 @@ jobs:
         with:
           push: true
           platforms: linux/arm64
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/pytorch-jetson-nano:latest-cpu
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/pytorch-jetson-nano:latest
           file: Dockerfile
