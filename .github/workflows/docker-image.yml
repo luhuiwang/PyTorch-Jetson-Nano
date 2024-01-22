@@ -40,7 +40,7 @@ jobs:
         with:
           push: true
           platforms: linux/arm64,linux/amd64
-          tags: ${{ github.actor }}/pytorch-jetson-nano:latest
+          tags: ghcr.io/${{ github.actor }}/pytorch-jetson-nano:latest
           file: Dockerfile
 
         
