@@ -33,7 +33,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ GH_ACCESS_TOKEN }}
+          password: ${{ secrets.GH_ACCESS_TOKEN }}
       - name: Build and push (GHCR)
         id: docker_build2
         uses: docker/build-push-action@v5.1.0
