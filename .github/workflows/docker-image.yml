@@ -4,10 +4,9 @@ on:
   release:
     types:
       - created
-      - edited
 
 jobs:
-  cpu:
+  pytorch:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
